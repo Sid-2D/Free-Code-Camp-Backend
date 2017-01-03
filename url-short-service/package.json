@@ -1,0 +1,25 @@
+{
+  "name": "url-short-service",
+  "version": "1.0.0",
+  "description": "URL shortener",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sid-2D/url-short-service.git"
+  },
+  "author": "Sid",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sid-2D/url-short-service/issues"
+  },
+  "homepage": "https://github.com/Sid-2D/url-short-service#readme",
+  "dependencies": {
+    "express": "4.14.0",
+    "mongodb": "2.1.18",
+    "request": "2.72.0"
+  }
+}
